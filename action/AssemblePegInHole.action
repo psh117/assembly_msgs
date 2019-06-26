@@ -1,0 +1,11 @@
+# Define the goal
+float32 pitch # spiral pitch
+float32 linear_velocity # Linear velocity of the end effector
+float32 z_force # Force along z-axis during spiral motion
+float32 insert_force # When a hole is found, the end-effector presses a pin into the hole with the force
+---
+# Define the result
+bool is_completed
+---
+# Define a feedback message
+float32 percent_complete
