@@ -1,0 +1,22 @@
+# Define the goal
+string arm_name
+int32 mode
+int32 swing_dir
+float32 threshold
+float32 range #search angle range, degree
+
+# modes
+int32 SINGLE_SEARCH=1
+int32 DUAL_SEARCH=2
+int32 ETC_SEARCH=3
+
+#swign_dir
+int32 X_dir=0
+int32 Y_dir=1
+int32 Z_dir=2
+---
+# Define the result
+bool is_completed
+---
+# Define a feedback message
+float32 percent_complete1

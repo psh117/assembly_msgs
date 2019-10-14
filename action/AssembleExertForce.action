@@ -1,13 +1,13 @@
 # Define the goal
 string arm_name
-float32 contact_force
-float32 descent_speed
+geometry_msgs/Wrench target_force
 int32 assemble_dir
 
 # assemble_dir
 int32 X_dir=0
 int32 Y_dir=1
 int32 Z_dir=2
+
 ---
 # Define the result
 bool is_completed

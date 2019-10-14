@@ -19,6 +19,14 @@ add_message_files(
 add_action_files(DIRECTORY action FILES 
   AssemblePegInHole.action
   AssembleApproach.action
+  AssembleExertForce.action
+  AssembleSpiral.action
+  AssembleVerifyCompletion.action
+)
+
+add_service_files(
+  FILES
+  IdleControl.srv
 )
 
 generate_messages(
