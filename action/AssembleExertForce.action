@@ -1,19 +1,13 @@
 # Define the goal
 string arm_name
-float32 contact_force
-float32 descent_speed
+geometry_msgs/Wrench target_force
 int32 assemble_dir
-int32 mode
 
 # assemble_dir
 int32 X_dir=0
 int32 Y_dir=1
 int32 Z_dir=2
 
-#mode #about orientation
-int32 Perp_xyz = 0
-int32 Perp_xy = 1 #For side_chiar case
-int32 Hold_xyz = 2
 ---
 # Define the result
 bool is_completed

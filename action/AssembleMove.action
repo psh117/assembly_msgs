@@ -1,16 +1,20 @@
 # Define the goal
 string arm_name
-float32 contact_force
-float32 descent_speed
-int32 assemble_dir
+geometry_msgs/Point p
 int32 mode
+int32 dir
+int32 option
 
-# assemble_dir
-int32 X_dir=0
-int32 Y_dir=1
-int32 Z_dir=2
+#mode
+int32 oneDofMove = 1
+int32 twoDofMove = 2
 
-#mode #about orientation
+#dir
+int32 x = 0
+int32 y = 1
+int32 z = 2
+
+#option #about orientation
 int32 Perp_xyz = 0
 int32 Perp_xy = 1 #For side_chiar case
 int32 Hold_xyz = 2
@@ -19,4 +23,4 @@ int32 Hold_xyz = 2
 bool is_completed
 ---
 # Define a feedback message
-float32 percent_complete
+float32 percent_complete1

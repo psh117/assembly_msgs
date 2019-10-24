@@ -1,0 +1,13 @@
+
+string arm_name
+float32 p_gain
+float32 d_gain
+
+int32 mode
+# modes
+int32 DISABLED=0
+int32 JOINT_SPACE=1
+int32 TASK_SPACE=2
+int32 TASK_SPACE_WITH_NULL=3
+---
+bool is_succeed
