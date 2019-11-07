@@ -24,6 +24,8 @@ add_action_files(DIRECTORY action FILES
   AssembleParallel.action
   AssembleMove.action
   AssembleSideChair.action
+  AssembleRotation.action
+  AssembleTripleRecovery.action
 )
 
 add_service_files(
