@@ -8,6 +8,13 @@ int32 X_dir=0
 int32 Y_dir=1
 int32 Z_dir=2
 
+float32 time
+float32 p_gain #position gain!
+
+float32 rot_p_gain #rotation gain
+float32 rot_d_gain #rotation gain
+
+bool rot_compliant_mode #set compliant motions along the non-assembly dir
 ---
 # Define the result
 bool is_completed
