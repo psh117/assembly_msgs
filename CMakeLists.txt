@@ -31,6 +31,7 @@ add_action_files(DIRECTORY action FILES
 add_service_files(
   FILES
   IdleControl.srv
+  ObjectConnection.srv
 )
 
 generate_messages(
