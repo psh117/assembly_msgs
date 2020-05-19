@@ -1,28 +1,9 @@
 # Define the goal
 string arm_name
-geometry_msgs/Point p
-geometry_msgs/Wrench target_force
-int32 assemble_dir
-int32 mode
-int32 dir
-int32 option
-int32 swing_dir
-float32 range
-float32 f_threshold
-
-#mode
-int32 oneDofMove = 1
-int32 twoDofMove = 2
-
-#dir
-int32 x = 0
-int32 y = 1
-int32 z = 2
-
-#option #about orientation
-int32 Perp_xyz = 0
-int32 Perp_xy = 1 #For side_chiar case
-int32 Hold_xyz = 2
+geometry_msgs/Pose recovery_target
+geometry_msgs/Pose ee_to_assemble
+float32 recover_angle
+float32 duration
 ---
 # Define the result
 bool is_completed

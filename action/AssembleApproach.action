@@ -3,17 +3,24 @@ string arm_name
 float32 contact_force
 float32 descent_speed
 int32 assemble_dir
-int32 mode
+geometry_msgs/Pose ee_to_assemble
+float32 time_limit
+float32 tilt_angle
+float32 tilt_duration
+int32 state
+bool set_tilt
+
+#state
+int32 READY = 0
+int32 EXEC = 1
+int32 TILT_BACK = 2
+int32 IGNORE = 3
 
 # assemble_dir
 int32 X_dir=0
 int32 Y_dir=1
 int32 Z_dir=2
 
-#mode #about orientation
-int32 Perp_xyz = 0
-int32 Perp_xy = 1 #For side_chiar case
-int32 Hold_xyz = 2
 ---
 # Define the result
 bool is_completed

@@ -10,6 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib
 )
 
+find_package(Eigen3 REQUIRED)
 
 add_message_files(
   FILES
@@ -26,6 +27,7 @@ add_action_files(DIRECTORY action FILES
   AssembleSideChair.action
   AssembleRotation.action
   AssembleTripleRecovery.action
+  TaskSpaceMove.action
 )
 
 add_service_files(

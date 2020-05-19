@@ -6,13 +6,18 @@ int32 mode
 int32 assemble_dir
 float32 depth
 float32 friction
+float32 pressing_force
+int32 spiral_duration
+geometry_msgs/Pose ee_to_assemble
+float32 range
+float32 twist_duration
 
 # modes
 int32 SINGLE_SEARCH=1
 int32 DUAL_SEARCH=2
 int32 ETC_SEARCH=3
 
-# assemble_dir
+# to be deprecated assemble_dir
 int32 X_dir=0
 int32 Y_dir=1
 int32 Z_dir=2

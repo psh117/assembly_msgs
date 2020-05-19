@@ -4,6 +4,7 @@ int32 mode
 int32 swing_dir
 float32 threshold
 float32 range #search angle range, degree
+geometry_msgs/Pose ee_to_assemble
 
 # modes
 int32 SINGLE_SEARCH=1

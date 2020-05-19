@@ -2,12 +2,15 @@
 string arm_name
 float32 p_gain
 float32 d_gain
-
+float32 vel_p_gain
+float32 vel_d_gain
+float32 qdot_max
 int32 mode
 # modes
 int32 DISABLED=0
 int32 JOINT_SPACE=1
 int32 TASK_SPACE=2
 int32 TASK_SPACE_WITH_NULL=3
+int32 TASK_SPACE_DEV_TEST=99
 ---
 bool is_succeed

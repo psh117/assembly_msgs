@@ -1,14 +1,17 @@
 # Define the goal
 string arm_name
-geometry_msgs/Point p
-geometry_msgs/Wrench target_force
-int32 assemble_dir
-int32 mode
-int32 dir
-int32 option
-int32 swing_dir
-float32 range
+geometry_msgs/Pose ee_to_assemble
+#geometry_msgs/Point p
+#geometry_msgs/Wrench target_force
+#int32 assemble_dir
+#int32 mode
+#int32 dir
+#int32 option
+#int32 swing_dir
+float32 range #degree
 float32 f_threshold
+float32 pressing_force
+float32 duration
 
 #mode
 int32 oneDofMove = 1
@@ -28,4 +31,4 @@ int32 Hold_xyz = 2
 bool is_completed
 ---
 # Define a feedback message
-float32 percent_complete1
+float32 percent_complete
