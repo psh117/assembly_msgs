@@ -1,6 +1,7 @@
 # Define the goal
 string arm_name
 geometry_msgs/Pose ee_to_assemble
+geometry_msgs/Pose ee_to_pivot
 #geometry_msgs/Point p
 #geometry_msgs/Wrench target_force
 #int32 assemble_dir

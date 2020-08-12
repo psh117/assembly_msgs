@@ -1,9 +1,9 @@
 # Define the goal
-string arm_name
+string task_arm
+string assist_arm
 float32 linear_vel
 float32 pitch
 int32 mode
-#int32 assemble_dir
 float32 depth
 float32 friction
 float32 pressing_force
@@ -11,8 +11,6 @@ int32 spiral_duration
 geometry_msgs/Pose ee_to_assemble
 float32 range
 float32 twist_duration
-geometry_msgs/Wrench compensation
-
 
 # modes
 int32 SINGLE_SEARCH=1
@@ -26,7 +24,6 @@ int32 Z_dir=2
 
 ---
 # Define the result
-
 bool is_completed
 geometry_msgs/Pose spiral_origin
 ---

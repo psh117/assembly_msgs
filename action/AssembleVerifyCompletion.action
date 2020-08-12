@@ -3,9 +3,11 @@ string arm_name
 int32 mode
 int32 swing_dir
 float32 threshold
-float32 range #search angle range, degree
+float32 search_range
+float32 search_duration
+float32 angle_range #search angle range, degree
 geometry_msgs/Pose ee_to_assemble
-
+geometry_msgs/Pose spiral_origin
 # modes
 int32 SINGLE_SEARCH=1
 int32 DUAL_SEARCH=2
@@ -18,6 +20,7 @@ int32 Z_dir=2
 ---
 # Define the result
 bool is_completed
+std_msgs/Int16MultiArray object_location
 ---
 # Define a feedback message
 float32 percent_complete1

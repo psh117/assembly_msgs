@@ -2,6 +2,8 @@
 string arm_name
 int32 mode
 geometry_msgs/Point p #only for mode 1 and 2!!
+geometry_msgs/Pose move_to_target
+geometry_msgs/Pose ee_to_assemble
 float32 target_distance #olny for mode 3!!
 int32 dir
 int32 option

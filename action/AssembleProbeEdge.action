@@ -1,13 +1,14 @@
 # Define the goal
 string arm_name
-geometry_msgs/Pose recovery_target
+float32 contact_force
+float32 attraction_force
+float32 probing_speed
+std_msgs/Int16MultiArray object_location
 geometry_msgs/Pose ee_to_assemble
-float32 tilt_back_threshold
-float32 recovery_angle
-float32 duration
+
 ---
 # Define the result
 bool is_completed
 ---
 # Define a feedback message
-float32 percent_complete1
+float32 percent_complete

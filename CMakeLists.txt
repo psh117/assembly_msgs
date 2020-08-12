@@ -27,7 +27,12 @@ add_action_files(DIRECTORY action FILES
   AssembleSideChair.action
   AssembleRotation.action
   AssembleTripleRecovery.action
+  AssembleDualArmSpiral.action
+  AssembleDualArmApproach.action
+  AssembleDualArmSideChairRecovery.action
+  AssembleProbeEdge.action
   TaskSpaceMove.action
+
 )
 
 add_service_files(

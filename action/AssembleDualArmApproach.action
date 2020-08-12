@@ -1,17 +1,15 @@
 # Define the goal
-string arm_name
+string task_arm
+string assist_arm
 float32 contact_force
 float32 descent_speed
-int32 assemble_dir
-geometry_msgs/Pose ee_to_assemble
+geometry_msgs/Pose task_arm_to_assemble
+geometry_msgs/Pose assist_arm_to_target
 float32 time_limit
 float32 tilt_angle
 float32 tilt_duration
 int32 state
-# 1=pin, 2=long_part
 bool set_tilt
-float32 tilt_back_threshold
-
 
 #state
 int32 READY = 0
@@ -19,15 +17,9 @@ int32 EXEC = 1
 int32 TILT_BACK = 2
 int32 IGNORE = 3
 
-# assemble_dir
-int32 X_dir=0
-int32 Y_dir=1
-int32 Z_dir=2
-
 ---
 # Define the result
 bool is_completed
-geometry_msgs/Wrench compensation
 ---
 # Define a feedback message
 float32 percent_complete

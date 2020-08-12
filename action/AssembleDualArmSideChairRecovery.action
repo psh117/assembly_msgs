@@ -1,0 +1,14 @@
+# Define the goal
+string task_arm
+string assist_arm
+geometry_msgs/Pose ee_to_assemble
+geometry_msgs/Pose ee_to_pivot
+float32 tilt_angle
+float32 tilt_duration
+
+---
+# Define the result
+bool is_completed
+---
+# Define a feedback message
+float32 percent_complete
