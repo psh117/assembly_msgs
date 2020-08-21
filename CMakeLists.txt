@@ -31,6 +31,7 @@ add_action_files(DIRECTORY action FILES
   AssembleDualArmApproach.action
   AssembleDualArmSideChairRecovery.action
   AssembleProbeEdge.action
+  AssembleTripleMove.action
   TaskSpaceMove.action
 
 )
