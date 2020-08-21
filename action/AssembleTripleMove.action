@@ -1,4 +1,5 @@
 # Define the goal
+float32 contact_force
 geometry_msgs/Pose target_position
 float32 duration
 
