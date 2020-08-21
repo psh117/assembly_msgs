@@ -1,11 +1,10 @@
 # Define the goal
 string arm_name
-int32 mode
-int32 swing_dir
+
 float32 threshold
 float32 search_range
 float32 search_duration
-float32 angle_range #search angle range, degree
+
 geometry_msgs/Pose ee_to_assemble
 geometry_msgs/Pose spiral_origin
 # modes

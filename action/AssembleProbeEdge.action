@@ -1,6 +1,7 @@
 # Define the goal
 string arm_name
 float32 contact_force
+float32 contact_loss_threshold
 float32 attraction_force
 float32 probing_speed
 std_msgs/Int16MultiArray object_location

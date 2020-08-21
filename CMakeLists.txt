@@ -19,6 +19,7 @@ add_message_files(
 
 add_action_files(DIRECTORY action FILES 
   AssembleApproach.action
+  AssembleApproachBolt.action
   AssembleExertForce.action
   AssembleSpiral.action
   AssembleVerifyCompletion.action	

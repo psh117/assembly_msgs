@@ -1,17 +1,14 @@
 # Define the goal
 string arm_name
+float32 contact_force
+float32 descent_speed
 geometry_msgs/Pose ee_to_assemble
-float32 insertion_force
-float32 duration
-float32 yawing_angle
-bool wiggle_motion
-bool wiggle_motion_z_axis
-bool yawing_motion
+float32 time_limit
 
 ---
 # Define the result
 bool is_completed
-geometry_msgs/Pose end_pose
+
 ---
 # Define a feedback message
 float32 percent_complete
