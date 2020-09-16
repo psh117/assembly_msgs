@@ -1,0 +1,15 @@
+# Define the goal
+string arm_name
+geometry_msgs/Pose ee_to_assemble
+float32 retreat_force # set positive value
+float32 retreat_distance # set positive value
+float32 wiggle_angle
+bool wiggle_motion
+bool wiggle_motion_z_axis
+float32 time_limit
+---
+# Define the result
+bool is_completed
+---
+# Define a feedback message
+float32 percent_complete

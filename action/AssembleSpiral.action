@@ -28,7 +28,7 @@ int32 Z_dir=2
 # Define the result
 
 bool is_completed
-geometry_msgs/Pose spiral_origin
+#geometry_msgs/Pose spiral_origin
 ---
 # Define a feedback message
 float32 percent_complete

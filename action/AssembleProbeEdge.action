@@ -6,10 +6,14 @@ float32 attraction_force
 float32 probing_speed
 std_msgs/Int16MultiArray object_location
 geometry_msgs/Pose ee_to_assemble
-
+float32 furniture_width	 
+float32 furniture_height # "width" is set to be larget than "height"
+float32 pin_radius
+float32 geometric_offset
 ---
 # Define the result
 bool is_completed
+geometry_msgs/Pose renew_origin
 ---
 # Define a feedback message
 float32 percent_complete

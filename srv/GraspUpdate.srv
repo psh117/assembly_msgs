@@ -1,0 +1,6 @@
+
+geometry_msgs/Point p_7l
+float32 mass_obj
+string arm_name
+---
+bool is_succeed

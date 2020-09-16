@@ -33,6 +33,7 @@ add_action_files(DIRECTORY action FILES
   AssembleDualArmSideChairRecovery.action
   AssembleProbeEdge.action
   AssembleTripleMove.action
+  AssembleRetreatBolt.action
   TaskSpaceMove.action
 
 )
@@ -41,6 +42,7 @@ add_service_files(
   FILES
   IdleControl.srv
   ObjectConnection.srv
+  SetTrajectoryFollowerGain.srv
 )
 
 generate_messages(

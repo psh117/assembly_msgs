@@ -1,32 +1,11 @@
 # Define the goal
 string arm_name
-int32 mode
-geometry_msgs/Point p #only for mode 1 and 2!!
 geometry_msgs/Pose move_to_target
 geometry_msgs/Pose ee_to_assemble
-float32 target_distance #olny for mode 3!!
-int32 dir
-int32 option
 
-
-#mode
-int32 oneDofMove = 1 #w.r.t global
-int32 twoDofMove = 2 #w.r.t global
-int32 oneDofMove_ee = 3
-#int32 twoDofMove_ee = 4
-
-#dir
-int32 x = 0
-int32 y = 1
-int32 z = 2
-
-#option #about orientation
-int32 Perp_xyz = 0
-int32 Perp_xy = 1 #For side_chiar case
-int32 Hold_xyz = 2
 ---
 # Define the result
 bool is_completed
 ---
 # Define a feedback message
-float32 percent_complete1
+float32 percent_complete
