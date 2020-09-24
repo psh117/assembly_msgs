@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   actionlib_msgs
   actionlib
+  vision_msgs
 )
 
 find_package(Eigen3 REQUIRED)
@@ -35,7 +36,6 @@ add_action_files(DIRECTORY action FILES
   AssembleTripleMove.action
   AssembleRetreatBolt.action
   TaskSpaceMove.action
-
 )
 
 add_service_files(
@@ -43,16 +43,19 @@ add_service_files(
   IdleControl.srv
   ObjectConnection.srv
   SetTrajectoryFollowerGain.srv
+  GetObjectPose.srv
+  GetObjectPoseArray.srv
 )
 
 generate_messages(
-  DEPENDENCIES std_msgs geometry_msgs actionlib_msgs
+  DEPENDENCIES std_msgs geometry_msgs actionlib_msgs vision_msgs
 )
 
 catkin_package(
   CATKIN_DEPENDS message_runtime std_msgs
   geometry_msgs
   sensor_msgs
+  vision_msgs
 )
 
 include_directories(
