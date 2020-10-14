@@ -7,6 +7,7 @@ float32 wiggle_angle
 bool wiggle_motion
 bool wiggle_motion_z_axis
 float32 time_limit
+float32 duration
 ---
 # Define the result
 bool is_completed

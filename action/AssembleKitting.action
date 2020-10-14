@@ -1,0 +1,17 @@
+string arm_name
+float32 contact_force
+float32 speed
+int32 dir
+geometry_msgs/Pose ee_to_assemble
+
+# dir
+int32 X = 0
+int32 Y = 1
+int32 Z = 2
+---
+# Define the result
+bool is_completed
+
+---
+# Define a feedback message
+float32 percent_complete

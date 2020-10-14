@@ -21,6 +21,7 @@ add_message_files(
 add_action_files(DIRECTORY action FILES 
   AssembleApproach.action
   AssembleApproachBolt.action
+  AssembleApproachHip.action
   AssembleExertForce.action
   AssembleSpiral.action
   AssembleVerifyCompletion.action	
@@ -35,6 +36,7 @@ add_action_files(DIRECTORY action FILES
   AssembleProbeEdge.action
   AssembleTripleMove.action
   AssembleRetreatBolt.action
+  AssembleKitting.action
   TaskSpaceMove.action
 )
 

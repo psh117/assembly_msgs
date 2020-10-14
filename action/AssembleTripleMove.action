@@ -1,7 +1,7 @@
 # Define the goal
-float32 contact_force
-geometry_msgs/Pose target_position
+geometry_msgs/Point direction
 float32 duration
+float32 contact_force
 
 ---
 # Define the result

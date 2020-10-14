@@ -1,0 +1,29 @@
+# Define the goal
+string arm_name
+float32 contact_force_rotate
+float32 contact_force_translate
+float32 rotation_vel
+float32 translation_vel
+int32 rotate_dir
+int32 translate_dir
+geometry_msgs/Pose ee_to_assemble
+float32 time_limit
+int32 action_type
+int32[] compliant_rotation_axis     # 1 : compliant / 0 : robust
+int32[] compliant_translation_axis  # 1 : compliant / 0 : robust
+
+# action_type
+int32 ROTATION = 0
+int32 TRANSLATION = 1
+
+# rotate / translate dir
+int32 X = 0
+int32 Y = 1
+int32 Z = 2
+---
+# Define the result
+bool is_completed
+
+---
+# Define a feedback message
+float32 percent_complete
