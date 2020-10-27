@@ -27,7 +27,7 @@ int32 Z_dir=2
 ---
 # Define the result
 bool is_completed
-geometry_msgs/Wrench compensation
+#geometry_msgs/Wrench compensation
 ---
 # Define a feedback message
 float32 percent_complete

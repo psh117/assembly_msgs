@@ -6,7 +6,8 @@ int32 mode
 float32 depth
 float32 friction
 float32 pressing_force
-int32 spiral_duration
+float32 spiral_duration
+int32 partial_search_dir
 geometry_msgs/Pose ee_to_assemble
 float32 range
 float32 twist_duration

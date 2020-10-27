@@ -37,6 +37,7 @@ add_action_files(DIRECTORY action FILES
   AssembleTripleMove.action
   AssembleRetreatBolt.action
   AssembleKitting.action
+  AssembleBackForth.action
   TaskSpaceMove.action
 )
 
