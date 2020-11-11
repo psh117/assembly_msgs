@@ -39,6 +39,7 @@ add_action_files(DIRECTORY action FILES
   AssembleKitting.action
   AssembleBackForth.action
   TaskSpaceMove.action
+  AssembleBoltingReady.action
 )
 
 add_service_files(

@@ -8,6 +8,8 @@ bool wiggle_motion
 bool wiggle_motion_z_axis
 bool yawing_motion
 int32 connector_type
+float32 bolting_minimum_depth
+float32 bolting_vel_threshold
 
 # connector_type
 int32 pin = 0 # pin, bracket
