@@ -1,23 +1,16 @@
 # Define the goal
 geometry_msgs/Point direction
 float32 duration
-float32 contact_force
+float32 contact_force_left
+float32 contact_force_right
+float32 contact_force_top
 string upper_arm
+string stop_arm
 bool is_test
 float32 upper_more
 float32 stop_speed
+float32 force_limit
 
-float32 ER_time
-float32 ER_up
-float32 ER_turn
-
-float32 EF_pitch
-float32 EF_linear_velocity
-float32 EF_limit
-float32 EF_turn
-float32 EF_down
-float32 EF_time
-float32 EF_contact_force
 ---
 # Define the result
 bool is_completed
