@@ -1,2 +1,4 @@
 ---
-vision_msgs/Detection3DArray object_pose_array
+geometry_msgs/PoseArray object_poses
+geometry_msgs/PoseArray grasp_poses
+int32[] object_ids

@@ -47,7 +47,6 @@ add_service_files(
   IdleControl.srv
   ObjectConnection.srv
   SetTrajectoryFollowerGain.srv
-  GetObjectPose.srv
   GetObjectPoseArray.srv
 )
 
