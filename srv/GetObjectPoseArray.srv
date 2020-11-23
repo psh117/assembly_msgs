@@ -1,4 +1,4 @@
 ---
 geometry_msgs/PoseArray object_poses
 geometry_msgs/PoseArray grasp_poses
-int32[] object_ids
+string[] object_ids
