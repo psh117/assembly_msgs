@@ -1,5 +1,6 @@
 # Define the goal
-geometry_msgs/Point direction
+float32 speed
+float32 upper_speed
 float32 duration
 float32 contact_force_left
 float32 contact_force_right
@@ -7,10 +8,6 @@ float32 contact_force_top
 string upper_arm
 string stop_arm_1
 string stop_arm_2
-bool is_test
-float32 upper_more
-float32 stop_speed
-float32 force_limit
 
 ---
 # Define the result
