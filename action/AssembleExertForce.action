@@ -10,7 +10,7 @@ bool yawing_motion
 int32 connector_type
 float32 bolting_minimum_depth
 float32 bolting_vel_threshold
-
+float32 time_limit
 # connector_type
 int32 pin = 0 # pin, bracket
 int32 bolt = 1 # bolts

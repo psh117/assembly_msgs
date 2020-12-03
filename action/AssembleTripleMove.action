@@ -5,6 +5,7 @@ float32 duration
 float32 contact_force_left
 float32 contact_force_right
 float32 contact_force_top
+float32 m_star_limit
 string upper_arm
 string stop_arm_1
 string stop_arm_2
