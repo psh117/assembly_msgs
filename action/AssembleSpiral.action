@@ -13,7 +13,8 @@ float32 range
 float32 twist_duration
 geometry_msgs/Wrench compensation
 bool set_tilt
-
+float32 global_target
+bool use_global_depth
 
 # modes
 int32 SINGLE_SEARCH=1

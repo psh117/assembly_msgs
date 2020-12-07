@@ -1,0 +1,5 @@
+string arm_name
+float64[] spiral_gain
+
+---
+bool is_succeed

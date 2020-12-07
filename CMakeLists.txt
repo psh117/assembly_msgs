@@ -48,6 +48,7 @@ add_service_files(
   ObjectConnection.srv
   SetTrajectoryFollowerGain.srv
   GetObjectPoseArray.srv
+  SetSpiralGain.srv
 )
 
 generate_messages(
