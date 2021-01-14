@@ -48,6 +48,7 @@ add_service_files(
   ObjectConnection.srv
   SetTrajectoryFollowerGain.srv
   GetObjectPoseArray.srv
+  GetObjectPose.srv
   SetSpiralGain.srv
 )
 
