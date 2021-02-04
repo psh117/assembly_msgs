@@ -40,6 +40,7 @@ add_action_files(DIRECTORY action FILES
   AssembleBackForth.action
   TaskSpaceMove.action
   AssembleBoltingReady.action
+  AssembleTripleHold.action
 )
 
 add_service_files(

@@ -1,0 +1,11 @@
+# Define the goal
+geometry_msgs/Wrench target_force_left
+geometry_msgs/Wrench target_force_right
+geometry_msgs/Wrench target_force_top
+
+---
+# Define the result
+bool is_completed
+---
+# Define a feedback message
+float32 percent_complete
