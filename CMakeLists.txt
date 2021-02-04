@@ -49,11 +49,12 @@ add_service_files(
   SetTrajectoryFollowerGain.srv
   GetObjectPoseArray.srv
   GetObjectPose.srv
+  GetObjectPose_with_points.srv
   SetSpiralGain.srv
 )
 
 generate_messages(
-  DEPENDENCIES std_msgs geometry_msgs actionlib_msgs vision_msgs
+  DEPENDENCIES std_msgs geometry_msgs actionlib_msgs vision_msgs sensor_msgs
 )
 
 catkin_package(
