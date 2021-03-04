@@ -39,8 +39,11 @@ add_action_files(DIRECTORY action FILES
   AssembleKitting.action
   AssembleBackForth.action
   TaskSpaceMove.action
+  TaskSpaceMultipleMove.action
   AssembleBoltingReady.action
   AssembleTripleHold.action
+  JointLimitAvoidance.action
+  AssembleGMMDualArmSpiral.action
 )
 
 add_service_files(
@@ -52,6 +55,7 @@ add_service_files(
   GetObjectPose.srv
   GetObjectPose_with_points.srv
   SetSpiralGain.srv
+  GetOccupancyVoxel.srv
 )
 
 generate_messages(

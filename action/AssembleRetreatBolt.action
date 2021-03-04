@@ -18,6 +18,8 @@ int32 BOLTING_FINISH = 1
 ---
 # Define the result
 bool is_completed
+string action_result# joint_limit, task_failure, #task_success
+
 ---
 # Define a feedback message
 float32 percent_complete
