@@ -1,0 +1,16 @@
+# Define the goal
+string task_arm
+string assist_arm
+float32 linear_vel
+float32 pitch
+float32 friction
+float32 pressing_force
+int32 spiral_duration
+geometry_msgs/Pose ee_to_assemble_task
+geometry_msgs/Pose ee_to_assemble_assist
+---
+# Define the result
+bool is_completed
+---
+# Define a feedback message
+float32 percent_complete

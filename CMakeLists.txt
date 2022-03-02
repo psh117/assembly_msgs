@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   actionlib
   vision_msgs
+  darknet_ros_msgs
 )
 
 find_package(Eigen3 REQUIRED)

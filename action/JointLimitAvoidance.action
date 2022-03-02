@@ -1,0 +1,12 @@
+# Define the goal
+string arm_name
+float32 joint_limit_angle_margin # deg
+float32 duration
+
+---
+# Define the result
+bool is_completed
+
+---
+# Define a feedback message
+float32 percent_complete1
